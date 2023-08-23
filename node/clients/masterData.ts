@@ -6,7 +6,7 @@ export default class Md extends MasterData {
     super(context, {
       ...options,
       headers: {
-        VtexIdclientAuthCookie: context.authToken,
+        VtexIdclientAutCookie: context.authToken,
       },
     })
   }
